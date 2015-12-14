@@ -28,7 +28,7 @@
 
 	// Change the default database only if you cannot connect to template1.
 	// For a PostgreSQL 8.1+ server, you can set this to 'postgres'.
-	$conf['servers'][0]['defaultdb'] = 'template1';
+	$conf['servers'][0]['defaultdb'] = 'postgres';
 
 	// Specify the path to the database dump utilities for this server.
 	// You can set these to '' if no dumper is available.
@@ -106,7 +106,7 @@
 	// aggregates, types, operators, operator classes, conversions, 
 	// languages and casts in phpPgAdmin. These objects are rarely 
 	// administered and can clutter the interface.
-	$conf['show_advanced'] = false;
+	$conf['show_advanced'] = true;
 
 	// Display "system" objects?
 	$conf['show_system'] = false;
