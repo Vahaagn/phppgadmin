@@ -15,7 +15,7 @@
 
 	// Hostname or IP address for server.  Use '' for UNIX domain socket.
 	// use 'localhost' for TCP/IP connection on this computer
-	$conf['servers'][0]['host'] = 'ec2-46-137-72-123.eu-west-1.compute.amazonaws.com';
+	$conf['servers'][0]['host'] = 'ec2-46-137-125-22.eu-west-1.compute.amazonaws.com';
 
 	// Database port on server (5432 is the PostgreSQL default)
 	$conf['servers'][0]['port'] = 5432;
@@ -28,7 +28,7 @@
 
 	// Change the default database only if you cannot connect to template1.
 	// For a PostgreSQL 8.1+ server, you can set this to 'postgres'.
-	$conf['servers'][0]['defaultdb'] = 'dff1hq6g0h406h';
+	$conf['servers'][0]['defaultdb'] = 'd7b000ns2p99hc';
 
 	// Specify the path to the database dump utilities for this server.
 	// You can set these to '' if no dumper is available.
